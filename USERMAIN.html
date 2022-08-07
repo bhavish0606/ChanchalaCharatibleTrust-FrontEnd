@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <style>
+    
+    .logo {
+      border-radius: 50%;
+      display: block;
+     height: 100px;
+     width: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      
+      
+    }
+    h1{
+       justify-content: center; 
+    }
+ 
+img{
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pd{
+    right: 100px;
+}
+   .button3
+{
+ position:absolute;
+ text-align: center;
+top:23%;
+left: 1240px;
+height:50px;
+width:100px;
+border: none;
+background-color:lightpink;
+border:aqua;
+padding:16px;
+}
+.b2{
+    left: 900px;
+}
+
+
+  </style>
+  <meta charset="utf-8">
+  <title>Chanchala Charitable Trust Funds </title>
+</head>
+
+<body bgcolor="pink">
+    <h2><center> <img class="logo" src="logo.jpg" alt="logo.img">
+        </center>
+  </h2>
+  <!--  <p style="float:left;>" Welcome...</p> -->
+  <h1 class="heading"> <center><b style="color: blue">CHANCHALA CHARITABLE TRUST </b>   </h1>  </center>
+  <hr size = "3" noshade>
+<button class="button3" onclick="window.location.href='user.html'"><b> Back</b></button>
+
+<form  name="google-sheet" method="POST" action="https://api.sheetmonkey.io/form/5neTosqaxRqRHBkjzAqT47">
+  
+    <center> <p style=" border:pink;  border-width: 2px;  border-style:solid ;">  APPLICATION FORM   <br> </center>
+   <div class="pd">
+        <h3  style=" border:blue;  border-width: 2px;  border-style:solid;"  > <center> PERSONAL DETAILS </center>
+    <br> 
+    &nbsp;&nbsp;College id             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type='text' placeholder='Id' name="ID"> <br><br> 
+    &nbsp;&nbsp;Name of College        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type='text' required="" name="CollegeName"> <br>
+    <br> 
+    &nbsp;&nbsp;Name of the Student    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type='text'  required  name="StudentName"> <br> 
+    <br>  
+    &nbsp;&nbsp; Father Name           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :<input type='text'  name="FatherName "  required> <br> 
+    <br> 
+    &nbsp;&nbsp; Mother Name         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   :<input type='text'  name="MotherName " required> <br> 
+    <br> 
+    &nbsp;&nbsp;Date of birth        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  :<input type='date' name="DOB" required> <br> 
+    <br>
+    &nbsp;&nbsp;email of  the student  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type='email'  required  name="Email"> <br>  <br><!-- comment -->
+    &nbsp;&nbsp;Alt-email of  the student :<input type='email'  name="AltEmail" required> <br> <br><!--  -->
+    </h3> 
+    </div>
+        <h4  style=" border:blue;  border-width: 2px;  border-style:solid;"> <b> <center> <h2>Academic's</h2> </b>  </center><br><!-- comment --> 
+            &nbsp;&nbsp; Year and semester    &nbsp;&nbsp;&nbsp;&nbsp;  :<input type='text'  required  name="Semester"> <br> <br>
+            &nbsp;&nbsp; Backlogs        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       :<input type='number'  required name="Backlogs"><br> <br>
+            &nbsp;&nbsp;CGPA             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      :<input type='text'  required  name="CGPA"> <br> <br>
+            &nbsp;&nbsp;SGPA : 
+    <ul> 
+        <li>   1-1 :<input type='text'   name="sem1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1-2 : <input type='text'  name="sem2"> </li>  <br>
+        <li>   2-1 :<input type='text' name="sem3" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2-2 : <input type='text'  name="sem4"> </li> <br>
+        <li>   3-1 :<input type='text' name="sem5" >  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3-2 : <input type='text' name="sem6" > </li> <br>
+        <li>   4-1 :<input type='text' name="sem7" >  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4-2 : <input type='text' name="sem8" > </li>  <br>  
+    </ul> 
+        
+    &nbsp;&nbsp; Attendence   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          :<input type='text'  required name="Attendence"> <br> <br>
+    &nbsp;&nbsp;Income  certificate &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type='file'  required name="Income_Certificate"> <br><br>
+    &nbsp;&nbsp;Disability certificate:(if any)&nbsp;&nbsp;:<input type='file' name="Disability"> <br> <br>
+    &nbsp;&nbsp;Sports certificates :(if any)
+      <ol>
+          <li> <input type='file'  name="Sports1" > <br></li>
+          <li> <input type='file'  name="Sports2" > <br></li>
+          <li> <input type='file'  name="Sports3" > <br></li>
+          <li> <input type='file'  name="Sports4"> <br></li>
+          
+      </ol>
+      
+      &nbsp;&nbsp;   Are You  a fresher?   Yes  <input type="radio" name="fresh" value="Fresher ">   <br><br> 
+      &nbsp;&nbsp;   EAMCET/ECET  RANK &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="text"   name="Eamcet">  <br><br> 
+      &nbsp;&nbsp;  JEE Percentile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="text"  name="JEE"> <br><br> 
+      &nbsp;&nbsp;   <b> Documents :</b> 
+       <ol>
+           <li> EAMCET/ E-CET  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type='file' name="Ecard" > <br><br></li>
+           <li> JEE SCORE   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type='file'  name="JCard"> <br><br></li>
+           <li>Any other &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type='file' name="Other"> <br><br> </li>
+         
+       </ol>
+       
+       &nbsp;&nbsp;Applying time          :<input type='datetime-local' name="Time" required><br>  
+    
+    <br> 
+    <br> 
+
+    <br> <p> <b>  Please Carefully Read the details and Proceed ......</b></p> <br> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <button onclick="window.location.href='Succes.html'" value="submit"  > submit </button>  
+      
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="b2" value="reset"> Cancel </button> 
+    <br> 
+    <br> 
+    <br> 
+
+        </h4> 
+    
+
+</form>
+<script>
+  document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'H'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'A'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'F'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
+  return false;
+  }
+  }
+  </script>
+  <script language="JavaScript">
+    $(document).bind("contextmenu",function(e) {
+     e.preventDefault();
+    });
+    $(document).keydown(function(e){
+        if(e.ctrlKey && (e.which === 83)){
+           e.preventDefault();
+           return false;
+        }
+    });
+    </script>
+  <script>
+    /* To Disable Inspect Element */
+    $(document).bind("contextmenu",function(e) {
+     e.preventDefault();
+    });
+    
+    $(document).keydown(function(e){
+        if(e.which === 123){
+           return false;
+        }
+    });
+    </script>
+</body>
+</html>
